@@ -1,0 +1,155 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+        {
+            "path": "data/developer-agreement_20181213.csv",
+            "profile": "tabular-data-resource",
+            "name": "developer-agreement_20181213",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "developer-agreement",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "developer-agreement-type",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "organisation",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "entry-date",
+                        "type": "date",
+                        "format": "default"
+                    },
+                    {
+                        "name": "start-date",
+                        "type": "date",
+                        "format": "default"
+                    },
+                    {
+                        "name": "end-date",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "planning-application",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "document-url",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "data/developer-agreement-transaction_20181213.csv",
+            "profile": "tabular-data-resource",
+            "name": "developer-agreement-transaction_20181213",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "developer-agreement-transaction",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "developer-agreement-contribution",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "amount",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "entry-date",
+                        "type": "date",
+                        "format": "default"
+                    },
+                    {
+                        "name": "start-date",
+                        "type": "date",
+                        "format": "default"
+                    },
+                    {
+                        "name": "end-date",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "data/developer-agreement-contribution_20181213.csv",
+            "profile": "tabular-data-resource",
+            "name": "developer-agreement-contribution_20181213",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "developer-agreement-contribution",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "developer-agreement",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "developer-contribution-purpose",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "amount",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "entry-date",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "start-date",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "end-date",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        }
+    ]
+}
