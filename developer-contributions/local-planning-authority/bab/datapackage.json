@@ -2,9 +2,9 @@
     "profile": "tabular-data-package",
     "resources": [
         {
-            "path": "data/developer-agreement_20181213.csv",
+            "path": "data/developer-agreement.csv",
             "profile": "tabular-data-resource",
-            "name": "developer-agreement_20181213",
+            "name": "developer-agreement",
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",
@@ -57,9 +57,9 @@
             }
         },
         {
-            "path": "data/developer-agreement-transaction_20181213.csv",
+            "path": "data/developer-agreement-transaction.csv",
             "profile": "tabular-data-resource",
-            "name": "developer-agreement-transaction_20181213",
+            "name": "developer-agreement-transaction",
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",
@@ -102,9 +102,9 @@
             }
         },
         {
-            "path": "data/developer-agreement-contribution_20181213.csv",
+            "path": "data/developer-agreement-contribution.csv",
             "profile": "tabular-data-resource",
-            "name": "developer-agreement-contribution_20181213",
+            "name": "developer-agreement-contribution",
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",
