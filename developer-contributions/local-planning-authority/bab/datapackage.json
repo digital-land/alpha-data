@@ -2,154 +2,262 @@
     "profile": "tabular-data-package",
     "resources": [
         {
-            "path": "data/developer-agreement.csv",
-            "profile": "tabular-data-resource",
-            "name": "developer-agreement",
-            "format": "csv",
-            "mediatype": "text/csv",
-            "encoding": "utf-8",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "developer-agreement",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "developer-agreement-type",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "organisation",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "entry-date",
-                        "type": "date",
-                        "format": "default"
-                    },
-                    {
-                        "name": "start-date",
-                        "type": "date",
-                        "format": "default"
-                    },
-                    {
-                        "name": "end-date",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "planning-application",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "document-url",
-                        "type": "string",
-                        "format": "default"
-                    }
-                ],
-                "missingValues": [
-                    ""
-                ]
-            }
-        },
-        {
-            "path": "data/developer-agreement-transaction.csv",
-            "profile": "tabular-data-resource",
-            "name": "developer-agreement-transaction",
-            "format": "csv",
-            "mediatype": "text/csv",
-            "encoding": "utf-8",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "developer-agreement-transaction",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "developer-agreement-contribution",
-                        "type": "integer",
-                        "format": "default"
-                    },
-                    {
-                        "name": "amount",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "entry-date",
-                        "type": "date",
-                        "format": "default"
-                    },
-                    {
-                        "name": "start-date",
-                        "type": "date",
-                        "format": "default"
-                    },
-                    {
-                        "name": "end-date",
-                        "type": "string",
-                        "format": "default"
-                    }
-                ],
-                "missingValues": [
-                    ""
-                ]
-            }
-        },
-        {
             "path": "data/developer-agreement-contribution.csv",
-            "profile": "tabular-data-resource",
-            "name": "developer-agreement-contribution",
-            "format": "csv",
-            "mediatype": "text/csv",
-            "encoding": "utf-8",
             "schema": {
                 "fields": [
                     {
                         "name": "developer-agreement-contribution",
-                        "type": "integer",
+                        "title": "Developer agreement contribution",
+                        "description": "A unique identifier for the developer agreement contribution",
+                        "type": "string",
+                        "constraints": {
+                            "required": true
+                        },
                         "format": "default"
                     },
                     {
                         "name": "developer-agreement",
-                        "type": "integer",
+                        "title": "Developer agreement",
+                        "description": "A unique identifier for the developer agreement",
+                        "type": "string",
+                        "constraints": {
+                            "required": true
+                        },
                         "format": "default"
                     },
                     {
                         "name": "developer-contribution-purpose",
+                        "title": "Developer contribution purpose",
+                        "description": "A unique ID for the contribution category, from list maintained by MHCLG",
                         "type": "string",
+                        "constraints": {
+                            "required": true,
+                            "pattern": "(affordable-housing|education|health|highways|transport|open-space|community-facilities|green-infrastructure|community-infrastructure-levy|other)"
+                        },
                         "format": "default"
                     },
                     {
                         "name": "amount",
+                        "title": "Amount",
+                        "description": "The agreed contribution amount",
                         "type": "number",
+                        "constraints": {
+                            "required": true
+                        },
                         "format": "default"
                     },
                     {
                         "name": "entry-date",
-                        "type": "string",
+                        "title": "Entry date",
+                        "description": "The date that the record was created",
+                        "type": "date",
+                        "constraints": {
+                            "required": true
+                        },
                         "format": "default"
                     },
                     {
                         "name": "start-date",
-                        "type": "string",
+                        "title": "Start date",
+                        "description": "The date on which the entry comes into effect",
+                        "type": "date",
+                        "constraints": {
+                            "required": false
+                        },
                         "format": "default"
                     },
                     {
                         "name": "end-date",
-                        "type": "string",
+                        "title": "End date",
+                        "description": "The date on which the entry is not longer in effect",
+                        "type": "date",
+                        "constraints": {
+                            "required": false
+                        },
                         "format": "default"
                     }
                 ],
                 "missingValues": [
                     ""
                 ]
-            }
+            },
+            "profile": "tabular-data-resource",
+            "name": "developer-agreement-contribution",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8"
+        },
+        {
+            "path": "data/developer-agreement-transaction.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "developer-agreement-transaction",
+                        "title": "Developer agreement transaction",
+                        "description": "A unique identifier for the developer agreement transaction",
+                        "type": "string",
+                        "constraints": {
+                            "required": true
+                        },
+                        "format": "default"
+                    },
+                    {
+                        "name": "developer-agreement-contribution",
+                        "title": "Developer agreement contribution",
+                        "description": "A unique identifier for the developer agreement contribution",
+                        "type": "string",
+                        "constraints": {
+                            "required": true
+                        },
+                        "format": "default"
+                    },
+                    {
+                        "name": "amount",
+                        "title": "Amount",
+                        "description": "The amount received from a developer for part/full payment of a contribution. Or the amount spent by a planning authority.A +ve value is money coming in; and a -ve value is money spent",
+                        "type": "number",
+                        "constraints": {
+                            "required": true
+                        },
+                        "format": "default"
+                    },
+                    {
+                        "name": "entry-date",
+                        "title": "Entry date",
+                        "description": "The date that the record was created",
+                        "type": "date",
+                        "constraints": {
+                            "required": true
+                        },
+                        "format": "default"
+                    },
+                    {
+                        "name": "start-date",
+                        "title": "Start date",
+                        "description": "The date on which the entry comes into effect",
+                        "type": "date",
+                        "constraints": {
+                            "required": false
+                        },
+                        "format": "default"
+                    },
+                    {
+                        "name": "end-date",
+                        "title": "End date",
+                        "description": "The date on which the entry is not longer in effect",
+                        "type": "date",
+                        "constraints": {
+                            "required": false
+                        },
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "tabular-data-resource",
+            "name": "developer-agreement-transaction",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8"
+        },
+        {
+            "path": "data/developer-agreement.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "developer-agreement",
+                        "title": "Developer agreement",
+                        "description": "A unique identifier for the developer agreement",
+                        "type": "string",
+                        "constraints": {
+                            "required": true
+                        },
+                        "format": "default"
+                    },
+                    {
+                        "name": "developer-agreement-type",
+                        "title": "Developer agreement type",
+                        "description": "The type of developer contribution, from list maintained by MHCLG",
+                        "type": "string",
+                        "constraints": {
+                            "required": true,
+                            "pattern": "(section-106|community-infrastructure-levy)"
+                        },
+                        "format": "default"
+                    },
+                    {
+                        "name": "organisation",
+                        "title": "Organisation",
+                        "description": "A unique identifier for each organisation, e.g. local-authority:DAC",
+                        "constraints": {
+                            "required": true,
+                            "pattern": "\\S+:\\S+"
+                        },
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "entry-date",
+                        "title": "Entry date",
+                        "description": "The date that the record was created",
+                        "type": "date",
+                        "constraints": {
+                            "required": true
+                        },
+                        "format": "default"
+                    },
+                    {
+                        "name": "start-date",
+                        "title": "Start date",
+                        "description": "The date on which the entry comes into effect",
+                        "type": "date",
+                        "constraints": {
+                            "required": false
+                        },
+                        "format": "default"
+                    },
+                    {
+                        "name": "end-date",
+                        "title": "End date",
+                        "description": "The date on which the entry is not longer in effect",
+                        "type": "date",
+                        "constraints": {
+                            "required": false
+                        },
+                        "format": "default"
+                    },
+                    {
+                        "name": "planning-application",
+                        "title": "Planning application",
+                        "description": "A unique identifier for the planning application (taken from the planning portal)",
+                        "type": "string",
+                        "constraints": {
+                            "required": true
+                        },
+                        "format": "default"
+                    },
+                    {
+                        "name": "document-url",
+                        "title": "Document URL",
+                        "description": "A persistent URL that points to the specific agreement document - NOTE will become madatory",
+                        "type": "string",
+                        "format": "uri",
+                        "constraints": {
+                            "required": false
+                        }
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            },
+            "profile": "tabular-data-resource",
+            "name": "developer-agreement",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8"
         }
     ]
 }
