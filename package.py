@@ -10,12 +10,14 @@ from datapackage.exceptions import CastError
 
 @click.command()
 @click.option('--source', help='Path to data directory')
-def make_package(source):
+@click.option('--publisher', help='Three letter local authority code e.g. dac for Dacorum')
+def make_package(source, publisher):
 
     os.chdir(source)
-    files = os.listdir('data')
+    files = [f for f in os.listdir('data') if f.endswith('.csv')]
 
-    package = Package()
+    publisher = f"local-authority:{publisher}"
+    package = Package({'publisher': publisher})
 
     for f in files:
         path = f"data/{f}"

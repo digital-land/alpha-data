@@ -1,4 +1,5 @@
 {
+    "publisher": "local-authority:bab",
     "profile": "tabular-data-package",
     "resources": [
         {
