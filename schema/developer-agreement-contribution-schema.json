@@ -64,5 +64,14 @@
                 "required": false
             }
         }
+    ],
+    "foreignKeys": [
+         {
+            "fields": "developer-agreement",
+            "reference": {
+              "resource": "developer-agreement",
+                "fields": "developer-agreement"
+            }
+         }
     ]
 }

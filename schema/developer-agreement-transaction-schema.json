@@ -54,5 +54,14 @@
                 "required": false
             }
         }
+    ],
+    "foreignKeys": [
+         {
+            "fields": "developer-agreement-contribution",
+            "reference": {
+              "resource": "developer-agreement-contribution",
+                "fields": "developer-agreement-contribution"
+            }
+         }
     ]
 }

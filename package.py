@@ -4,7 +4,6 @@ import os
 import click
 
 from datapackage import Package, Resource
-from tableschema import Schema
 from datapackage.exceptions import CastError
 
 
