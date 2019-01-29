@@ -78,6 +78,15 @@
                         "format": "default"
                     }
                 ],
+                "foreignKeys": [
+                    {
+                        "fields": "developer-agreement",
+                        "reference": {
+                            "resource": "developer-agreement",
+                            "fields": "developer-agreement"
+                        }
+                    }
+                ],
                 "missingValues": [
                     ""
                 ]
@@ -151,6 +160,15 @@
                             "required": false
                         },
                         "format": "default"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": "developer-agreement-contribution",
+                        "reference": {
+                            "resource": "developer-agreement-contribution",
+                            "fields": "developer-agreement-contribution"
+                        }
                     }
                 ],
                 "missingValues": [

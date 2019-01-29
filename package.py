@@ -5,6 +5,7 @@ import click
 
 from datapackage import Package, Resource
 from datapackage.exceptions import CastError
+from tableschema.exceptions import RelationError
 
 
 @click.command()
@@ -32,7 +33,8 @@ def make_package(source, publisher):
     for r in package.resources:
         try:
             r.read(keyed=True)
-        except CastError as e:
+            r.check_relations()
+        except (CastError, RelationError) as e:
             print('Error in', os.path.join(source, r.descriptor['path']))
             print(e, e.errors)
             errors = True
