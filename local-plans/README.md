@@ -32,7 +32,7 @@ The fields in this register are
 
 | field       | description|
 | ------------- |-------------|
-| organisation   | The planning authority that created the plan. This should be a proper identifier from an organisation register |
+| organisation   | The planning authority publishing the plan. Eventually this should contain an identifier from an organisation register |
 | status  | The status of the plan as one of published, submitted, accepted, adopted, updated |
 | date | The date on which the plan reached the given status |
-| entry-date | the date this record was written to the register |
+| entry-date | The date this row/record was written to the register |
