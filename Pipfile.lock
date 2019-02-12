@@ -143,10 +143,10 @@
         },
         "python-dateutil": {
             "hashes": [
-                "sha256:063df5763652e21de43de7d9e00ccf239f953a832941e37be541614732cdfc93",
-                "sha256:88f9287c0174266bb0d8cedd395cfba9c58e87e5ad86b2ce58859bc11be3cf02"
+                "sha256:7e6584c74aeed623791615e26efd690f29817a27c73085b78e4bad02493df2fb",
+                "sha256:c89805f6f4d64db21ed966fda138f8a5ed7a4fdbc1a8ee329ce1b74e3c74da9e"
             ],
-            "version": "==2.7.5"
+            "version": "==2.8.0"
         },
         "requests": {
             "hashes": [
@@ -171,9 +171,9 @@
         },
         "sqlalchemy": {
             "hashes": [
-                "sha256:6af3ca2f7f00844465ab4fa78337d487b39e53f516c51328aed4ed3a719d4264"
+                "sha256:52a42dbf02d0562d6e90e7af59f177f1cc027e72833cc29c3a821eefa009c71d"
             ],
-            "version": "==1.2.16"
+            "version": "==1.2.17"
         },
         "tableschema": {
             "hashes": [
