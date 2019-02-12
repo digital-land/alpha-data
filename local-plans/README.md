@@ -20,7 +20,7 @@ Where these states map to the headings in the original document as follows:
     Adopted = adopted
 
 
-The fields in this register are
+The fields in this register are:
 
     organisation
     name
@@ -30,7 +30,8 @@ The fields in this register are
     date
     entry-date
 
- * These name are of course work in progress
+**These field names are of course work in progress**
+
 
 ### Field descriptions
 
