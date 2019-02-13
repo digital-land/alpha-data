@@ -9,19 +9,21 @@ Each row in the file represents the local plan of a planning authority at a spec
 
 The plan can be in one of the following states:
 
-    published|submitted|accepted|adopted|updated
+    published|submitted|validated|adopted|updated
 
 Where these states map to the headings in the original document as follows:
 
     Last Updated = updated
     Published = published
     Submitted = submitted
-    Found Sound = accepted
+    Found Sound = validated
     Adopted = adopted
 
 
 The fields in this register are:
 
+    entry-number
+    local-plan
     organisation
     name
     status
@@ -37,6 +39,8 @@ The fields in this register are:
 
 | field       | description|
 | ------------- |-------------|
+| entry-number | Sequential number when record added to register |
+| local-plan | Identifier for local plan. The status changes in the plan require new entries which share this identifier |
 | organisation | The planning authority publishing the plan. Identifiers should eventually come from organisation register |
 | name | planning authority name|
 | status | The status of the plan as one of published, submitted, accepted, adopted, updated |
