@@ -34,6 +34,8 @@ The fields in this register are:
 
 **These field names are of course work in progress**
 
+**Note: it seems that plans can be comprised of many documents therefore we'll probably move the plan document url into its own list at some point**
+
 
 ### Field descriptions
 
