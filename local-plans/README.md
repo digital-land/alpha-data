@@ -22,7 +22,6 @@ Where these states map to the headings in the original document as follows:
 
 The fields in this register are:
 
-    entry-number
     local-plan
     organisation
     name
@@ -41,7 +40,6 @@ The fields in this register are:
 
 | field       | description|
 | ------------- |-------------|
-| entry-number | Sequential number when record added to register |
 | local-plan | Identifier for local plan. The status changes in the plan require new entries which share this identifier |
 | organisation | The planning authority publishing the plan. Identifiers should eventually come from organisation register |
 | name | planning authority name|
