@@ -9,14 +9,14 @@ Each row in the file represents the local plan of a planning authority at a spec
 
 The plan can be in one of the following states:
 
-    published|submitted|validated|adopted|updated
+    published|submitted|sound|adopted|updated
 
 Where these states map to the headings in the original document as follows:
 
     Last Updated = updated
     Published = published
     Submitted = submitted
-    Found Sound = validated
+    Found Sound = sound
     Adopted = adopted
 
 
