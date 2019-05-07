@@ -25,7 +25,7 @@
             "type": "string",
             "constraints": {
                 "required": true,
-                "pattern": "(affordable-housing|education|health|highways|transport|open-space|open-space-and-leisure|commumnity-facilities|green-infrastructure|other|community-infrastructure-levy|economic-development|flood|mayoral-community-infrastructure-levy|monitoring-fees|cil-administration-costs)"
+                "pattern": "(affordable-housing|education|health|highways|transport-and-travel|open-space|open-space-and-leisure|commumnity-facilities|green-infrastructure|other|community-infrastructure-levy|economic-development|flood-and-water-management|mayoral-community-infrastructure-levy|monitoring-fees|cil-administration-costs|digital-infrastructure|land|bonds|neighbourhood-community-infrastructure-levy)"
             }
         },
         {
