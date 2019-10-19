@@ -1,4 +1,6 @@
 organisation,register-url
+development-corporation:1,https://www.queenelizabetholympicpark.co.uk/-/media/lldc/planning/brownfield-register/lldc-brownfield-register-csv-web-version.ashx?la=en
+development-corporation:2,https://www.london.gov.uk/sites/default/files/oldoakandparkroyaldevelopmentcorporation_brownfieldregister_2017-12-31_rev1.csv
 local-authority-eng:ADU,"https://www.adur-worthing.gov.uk/media/media,146509,en.xlsx"
 local-authority-eng:ALL,https://df4iy9syor5px.cloudfront.net/media/filer_public/e2/4f/e24f8151-3b1c-421d-9909-0a6f29bfe831/allerdale_brownfieldregister_2017-12-20_1.csv
 local-authority-eng:AMB,http://info.ambervalley.gov.uk/shareddatasets/brownfieldlandregister/ambervalley_brownfieldregister_2017-12-31_rev1.csv
@@ -268,7 +270,7 @@ local-authority-eng:TAW,https://www.tamworth.gov.uk/sites/default/files/planning
 local-authority-eng:TEI,https://www.teignbridge.gov.uk/media/6172/brownfieldlandregisterteignbridge2017.csv
 local-authority-eng:TEN,https://www.tendringdc.gov.uk/sites/default/files/documents/planning/planning%20policy/brownfield/Tendring%20Brownfield%20Land%20Register.csv
 local-authority-eng:TES,http://www.testvalley.gov.uk/assets/attach/5653/Test%20Valley%20Borough%20Council%20Brownfield%20Register.csv
-local-authority-eng:TEW,https://drive.google.com/open?id=1sc3-QVE9dEmkjwSEzp-DTHWNw7LAK_rh
+local-authority-eng:TEW,
 local-authority-eng:TFW,http://www.telford.gov.uk/downloads/file/5092/telford_and_wrekin_brownfieldregister_2016-12-01_rev1_csv
 local-authority-eng:THA,https://www.thanet.gov.uk//wp-content/uploads/2018/03/BrownfieldLandRegisterThanetDCa.csv
 local-authority-eng:THE,http://www.threerivers.gov.uk/download?id=41371
