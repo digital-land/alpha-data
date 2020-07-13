@@ -109,16 +109,13 @@ status_writer = csv.DictWriter(
 )
 status_writer.writeheader()
 
-for status in ["submitted", "published", "found-sound", "adopted"]:
+for status in ["submitted", "published", "sound", "adopted"]:
     status_writer.writerow(
         {
             "development-plan-status": status,
             "name": status,
-            "entry-date": "2020-07-13",
-            "start-date": "2020-07-13",
         }
     )
-
 
 # def hash(value):
 #     return hashlib.sha256(value.encode("utf-8")).hexdigest()
