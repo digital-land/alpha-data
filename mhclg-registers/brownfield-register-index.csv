@@ -1,6 +1,8 @@
 organisation,register-url
+development-corporation:1,https://www.queenelizabetholympicpark.co.uk/-/media/lldc/planning/brownfield-register/lldc-brownfield-register-csv-web-version.ashx?la=en
+development-corporation:2,https://www.london.gov.uk/sites/default/files/oldoakandparkroyaldevelopmentcorporation_brownfieldregister_2017-12-31_rev1.csv
 local-authority-eng:ADU,"https://www.adur-worthing.gov.uk/media/media,146509,en.xlsx"
-local-authority-eng:ALL,https://www-cloudfront.allerdale.gov.uk/media/filer_public/e2/4f/e24f8151-3b1c-421d-9909-0a6f29bfe831/allerdale_brownfieldregister_2017-12-20_1.csv
+local-authority-eng:ALL,https://df4iy9syor5px.cloudfront.net/media/filer_public/e2/4f/e24f8151-3b1c-421d-9909-0a6f29bfe831/allerdale_brownfieldregister_2017-12-20_1.csv
 local-authority-eng:AMB,http://info.ambervalley.gov.uk/shareddatasets/brownfieldlandregister/ambervalley_brownfieldregister_2017-12-31_rev1.csv
 local-authority-eng:ARU,https://www.arun.gov.uk/download.cfm?doc=docm93jijm4n11541.xlsm&ver=11522
 local-authority-eng:ASF,https://www.ashford.gov.uk/media/5782/ashford_borough_council_brownfield_register-26-02-18.csv
@@ -259,7 +261,7 @@ local-authority-eng:STY,https://www.southtyneside.gov.uk/media/29816/Register-of
 local-authority-eng:SUF,http://www.eastsuffolk.gov.uk/assets/Planning/Brownfield-Land-Register/Suffolk-Coastal-Brownfield-Land-Register.csv
 local-authority-eng:SUR,http://www.surreyheath.gov.uk/sites/default/files/documents/residents/planning/planning-policy/brownfield/shbrownfieldregister181217.csv
 local-authority-eng:SWD,https://www.swindon.gov.uk/download/downloads/id/3349/swindon_brownfieldregister_2017-12-21_rev1.csv
-local-authority-eng:SWK,https://www.southwark.gov.uk/assets/attach/5763/Southwark%20Brownfield%202017.xlsx
+local-authority-eng:SWK,https://www.southwark.gov.uk/assets/attach/5763/Southwark-Brownfield-2017.xlsx
 local-authority-eng:SWL,https://archive.swale.gov.uk/assets/Planning-General/Planning-Policy/Brownfield-Land-Register/Brownfield-Land-Register-for-Website-PROTECTED-VERSION.xlsx
 local-authority-eng:TAM,https://www.tameside.gov.uk/planning/tameside_blr.csv
 local-authority-eng:TAN,https://www.tandridge.gov.uk/Portals/0/Documents/Planning%20and%20building/Planning%20strategies%20and%20policies/Local%20plan/Local%20plan%202033/Tandridge-Brownfield-Register.csv
@@ -268,7 +270,7 @@ local-authority-eng:TAW,https://www.tamworth.gov.uk/sites/default/files/planning
 local-authority-eng:TEI,https://www.teignbridge.gov.uk/media/6172/brownfieldlandregisterteignbridge2017.csv
 local-authority-eng:TEN,https://www.tendringdc.gov.uk/sites/default/files/documents/planning/planning%20policy/brownfield/Tendring%20Brownfield%20Land%20Register.csv
 local-authority-eng:TES,http://www.testvalley.gov.uk/assets/attach/5653/Test%20Valley%20Borough%20Council%20Brownfield%20Register.csv
-local-authority-eng:TEW,https://drive.google.com/open?id=1sc3-QVE9dEmkjwSEzp-DTHWNw7LAK_rh
+local-authority-eng:TEW,
 local-authority-eng:TFW,http://www.telford.gov.uk/downloads/file/5092/telford_and_wrekin_brownfieldregister_2016-12-01_rev1_csv
 local-authority-eng:THA,https://www.thanet.gov.uk//wp-content/uploads/2018/03/BrownfieldLandRegisterThanetDCa.csv
 local-authority-eng:THE,http://www.threerivers.gov.uk/download?id=41371
