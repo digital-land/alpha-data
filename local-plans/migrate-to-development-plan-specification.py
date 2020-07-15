@@ -24,6 +24,7 @@ reader = csv.DictReader(f)
 plans = {}
 timetables = {}
 
+
 def check_add(plan, field, value):
     if field not in plan:
         plan[field] = value
@@ -89,12 +90,14 @@ timetable_writer.writeheader()
 for plan in plans.values():
     for status in ["submitted", "published", "sound", "adopted"]:
         if plan[status]:
-            timetable_writer.writerow({
-                "development-plan": plan["development-plan"],
-                "development-plan-status": status,
-                "end-date": plan[status],
-                "entry-date": "2020-07-13",
-            })
+            timetable_writer.writerow(
+                {
+                    "development-plan": plan["development-plan"],
+                    "development-plan-status": status,
+                    "end-date": plan[status],
+                    "entry-date": "2020-07-13",
+                }
+            )
 
 status_fieldnames = [
     "development-plan-status",
@@ -111,10 +114,7 @@ status_writer.writeheader()
 
 for status in ["submitted", "published", "sound", "adopted"]:
     status_writer.writerow(
-        {
-            "development-plan-status": status,
-            "name": status,
-        }
+        {"development-plan-status": status, "name": status,}
     )
 
 # def hash(value):
