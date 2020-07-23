@@ -1,27 +1,27 @@
 #! /usr/bin/env python
 
 import csv
+import copy
 import hashlib
 
 fieldnames = [
-    "description",
     "development-plan",
-    "development-plan-type",
-    "development-policies",
-    "geographies",
     "name",
-    "notes",
+    "development-plan-type",
     "organisations",
+    "geographies",
+    "notes",
+    "description",
     "end-date",
     "entry-date",
     "start-date",
-    "document-url",
 ]
 
 f = open("./local-plan-data.csv")
 reader = csv.DictReader(f)
 
 plans = {}
+documents = {}
 timetables = {}
 
 
@@ -45,7 +45,6 @@ for row in reader:
 
     check_add(plan, "name", row["plan_title"])
     check_add(plan, "start-date", row["adopted"])
-    check_add(plan, "document-url", row["source_document"])
     check_add(plan, "notes", row["notes"])
 
     check_add(plan, "submitted", row["submitted"])
@@ -53,6 +52,13 @@ for row in reader:
     check_add(plan, "sound", row["found_sound"])
     check_add(plan, "adopted", row["adopted"])
 
+    document_key = ":".join([row["plan_id"], row["planning_authority"]])
+    documents[document_key] = copy.deepcopy(plan)
+    documents[document_key]["development-plan-document"] = document_key
+    documents[document_key]["organisation"] = row["planning_authority"]
+    documents[document_key]["document-url"] = row["source_document"]
+
+    # build list of all geographies that this plan applies to
     geographies = plan.setdefault("geographies", [])
     geographies.append(f"statistical-geography:{row['ons_code']}")
 
@@ -71,6 +77,28 @@ for plan in plans.values():
     plan["organisations"] = ";".join(plan["organisations"])
     plan["geographies"] = ";".join(plan["geographies"])
     writer.writerow(plan)
+
+
+document_fieldnames = [
+    "development-plan-document",
+    "document-url",
+    "development-policies",
+    "development-plan",
+    "organisation",
+    "notes",
+    "description",
+    "entry-date",
+    "start-date",
+    "end-date",
+]
+
+writer = csv.DictWriter(
+    open("./development-plan-document.csv", "w"), document_fieldnames, extrasaction="ignore"
+)
+writer.writeheader()
+
+for document in documents.values():
+    writer.writerow(document)
 
 
 timetable_fieldnames = [
