@@ -37,6 +37,10 @@ def check_add(plan, field, value):
         )
 
 
+def hash_(value):
+    return hashlib.sha256(value.encode("utf-8")).hexdigest()
+
+
 for row in reader:
     plan = plans.setdefault(row["plan_id"], dict())
 
@@ -52,7 +56,7 @@ for row in reader:
     check_add(plan, "sound", row["found_sound"])
     check_add(plan, "adopted", row["adopted"])
 
-    document_key = ":".join([row["plan_id"], row["planning_authority"]])
+    document_key = hash_(":".join([row["plan_id"], row["planning_authority"]]))
     documents[document_key] = copy.deepcopy(plan)
     documents[document_key]["development-plan-document"] = document_key
     documents[document_key]["organisation"] = row["planning_authority"]
@@ -93,7 +97,9 @@ document_fieldnames = [
 ]
 
 writer = csv.DictWriter(
-    open("./development-plan-document.csv", "w"), document_fieldnames, extrasaction="ignore"
+    open("./development-plan-document.csv", "w"),
+    document_fieldnames,
+    extrasaction="ignore",
 )
 writer.writeheader()
 
@@ -144,6 +150,3 @@ for status in ["submitted", "published", "sound", "adopted"]:
     status_writer.writerow(
         {"development-plan-status": status, "name": status,}
     )
-
-# def hash(value):
-#     return hashlib.sha256(value.encode("utf-8")).hexdigest()
