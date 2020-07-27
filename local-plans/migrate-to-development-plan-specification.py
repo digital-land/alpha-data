@@ -85,12 +85,13 @@ for plan in plans.values():
 
 document_fieldnames = [
     "development-plan-document",
-    "document-url",
-    "development-policies",
-    "development-plan",
-    "organisation",
-    "notes",
     "description",
+    "development-plan",
+    "development-policies",
+    "document-url",
+    "name",
+    "notes",
+    "organisation",
     "entry-date",
     "start-date",
     "end-date",
