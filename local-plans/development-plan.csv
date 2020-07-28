@@ -25,7 +25,7 @@ Reg 18 consultation: Draft Plan January 2020.",,,,
 8f4eecb8-0d98-4af4-b5b5-0ffc9451a190,Core Strategy for Chiltern District,local-plan,local-authority-eng:CHN,statistical-geography:E07000005,,,,,2011-11-15
 e44f3ac6-d9bd-4f26-a318-3f187eea80d3,Chiltern and South Bucks Local Plan,local-plan,local-authority-eng:CHN;local-authority-eng:SBU,statistical-geography:E07000005;statistical-geography:E07000006,"Excludes 4,161 unmet need to be met through Aylesbury Vale Local Plan.",,,,
 d00b83a7-aabe-4bbd-866c-ef2cc11d59a3,Planning for the future of Barking and Dagenham: Core Strategy,local-plan,local-authority-eng:BDG,statistical-geography:E09000002,,,,,2010-07-21
-3bda3313-7fc4-41e1-ae6f-b29af6accb3c,,local-plan,local-authority-eng:BDG,statistical-geography:E09000002,,,,,
+3bda3313-7fc4-41e1-ae6f-b29af6accb3c,Local Plan Review,local-plan,local-authority-eng:BDG,statistical-geography:E09000002,,,,,
 346b2235-bd4c-435b-88c7-0fbc40f011a2,Colchester Local Plan 2001-2011,local-plan,local-authority-eng:COL,statistical-geography:E07000071,"Policy H1, as adopted in the Core Strategy 2008.",,,,2008-12-11
 35b33d09-b9ef-480a-bb4a-62eb6e43bf48,Colchester Local Plan Focused Review,local-plan,local-authority-eng:COL,statistical-geography:E07000071,"Focused Review pertaining to compliance with the NPPF. Review updated policies on sustainable development, planning obligations/CIL, affordable housing, housing density and mix, gypsies and travellers, Neighbourhood Planning, rural exception sites, rural workers’ housing and
 equestrian uses. Housing requirement policy (H1) not materially altered by the Focused Review; policy dates to the Core Strategy (adopted Dec 2008).",,,,2014-07-16
@@ -61,7 +61,7 @@ f18ffccb-ad43-4fb1-aabf-32be13d6bae8,North Core Strategy,local-plan,local-author
 1d4759cb-5018-43e5-9c6a-ca0372b083c6,Central Bedfordshire Local Plan 2035,local-plan,local-authority-eng:CBF,statistical-geography:E06000056,,,,,
 2be3bc2f-67c2-4e1e-ab07-aa5df549bf8d,Derby City Local Plan Part 1: Core Strategy,local-plan,local-authority-eng:DER,statistical-geography:E06000015,,,,,2017-01-25
 35227a41-4853-40a6-aa52-4b357ea222e5,Charnwood Local Plan 2011-2028: Core Strategy,local-plan,local-authority-eng:CHA,statistical-geography:E07000130,,,,,2015-11-09
-d877f907-b0ba-44ca-9a83-f8dbb7cf86d8,,local-plan,local-authority-eng:CHA,statistical-geography:E07000130,,,,,
+d877f907-b0ba-44ca-9a83-f8dbb7cf86d8,New Charnwood Local Plan,local-plan,local-authority-eng:CHA,statistical-geography:E07000130,,,,,
 03776d95-0e60-4c47-8d94-37cb160d2197,Bolton Core Strategy,local-plan,local-authority-eng:BOL,statistical-geography:E08000001,,,,,2011-03-02
 e86dfd70-6607-44b0-904c-1221ab55f38c,Greater Manchester Spatial Framework,local-plan,local-authority-eng:BOL;local-authority-eng:RCH;local-authority-eng:OLD;local-authority-eng:MAN;local-authority-eng:TRF;local-authority-eng:SKP;local-authority-eng:WGN;local-authority-eng:BUR;local-authority-eng:SLF;local-authority-eng:TAM,statistical-geography:E08000001;statistical-geography:E08000005;statistical-geography:E08000004;statistical-geography:E08000003;statistical-geography:E08000009;statistical-geography:E08000007;statistical-geography:E08000010;statistical-geography:E08000002;statistical-geography:E08000006;statistical-geography:E08000008,,,,,
 34e96a04-b95b-4812-8abd-72b1b2807189,Bristol Development Framework: Core Strategy,local-plan,local-authority-eng:BST,statistical-geography:E06000023,"Excludes any contribution from small unidentified sites and additional regeneration sites at Knowle West, which would entail total delivery of 32,800 homes.",,,,2011-06-21
@@ -102,7 +102,7 @@ fabfb03b-4e3d-4fd8-a874-88d1457874bd,Craven Local Plan,local-plan,local-authorit
 beccd40e-da67-45a7-bdfa-c11004e60d49,Core Strategy,local-plan,local-authority-eng:DAL,statistical-geography:E06000005,Reflects RSS annualised average target (which does not align with figure set out in Policy CS10).,,,,2011-05-06
 c60389a1-db50-48c2-8daf-d67ceb5de91b,Darlington Local Plan,local-plan,local-authority-eng:DAL,statistical-geography:E06000005,As set out in Darlington Draft Local Plan 2016-2036 Reg 18 (August 2018),,,,
 6e6621ed-7095-4f3a-901c-8477bad6e802,Core Strategy,local-plan,local-authority-eng:BBD,statistical-geography:E06000008,,,,,2011-01-27
-7ec60977-d892-4a01-8b5f-3b7d175f3e6a,,local-plan,local-authority-eng:BBD,statistical-geography:E06000008,,,,,
+7ec60977-d892-4a01-8b5f-3b7d175f3e6a,Blackburn with Darwen Local Plan,local-plan,local-authority-eng:BBD,statistical-geography:E06000008,,,,,
 7dd9e611-a2f6-4904-9b54-ddf987d87945,Local Plan for the Broads,local-plan,government-organisation:OT216,statistical-geography:E26000007,"Total requirement of 286, minus 38 unmet need to be delivered by Great Yarmouth outside the Broads.",,,,2019-05-17
 208f8df8-5784-4ea4-8521-a2d58603b234,Core Strategy DPD 2006,local-plan,government-organisation:OT217,statistical-geography:E26000001,,,,,2008-04-04
 a37f5aa7-26df-4435-9f54-b4b15ff03b9d,Local Plan Review (Draft),local-plan,government-organisation:OT217,statistical-geography:E26000001,,,,,
@@ -110,7 +110,7 @@ a37f5aa7-26df-4435-9f54-b4b15ff03b9d,Local Plan Review (Draft),local-plan,govern
 6d1bee1d-3c05-4aaf-8d7b-2dd014b03eab,Halton Delivery and Allocations Plan,local-plan,local-authority-eng:HAL,statistical-geography:E06000006,,,,,
 e9cdd4c9-4ab7-4764-90d0-193af9bb2c04,Local Plan 2014-2032,local-plan,local-authority-eng:EDN,statistical-geography:E07000030,,,,,2018-10-11
 193ef3e3-af8c-4dbc-94dd-a7dceb2d34a7,East Devon Local Plan 2013-31,local-plan,local-authority-eng:EDE,statistical-geography:E07000040,,,,,2016-01-28
-0982c692-460f-4d13-8c67-cb6912ee6748,,local-plan,local-authority-eng:EDE;local-authority-eng:EXE;local-authority-eng:MDE;local-authority-eng:TEI,statistical-geography:E07000040;statistical-geography:E07000041;statistical-geography:E07000042;statistical-geography:E07000045,,,,,
+0982c692-460f-4d13-8c67-cb6912ee6748,Greater Exeter Strategic Plan,local-plan,local-authority-eng:EDE;local-authority-eng:EXE;local-authority-eng:MDE;local-authority-eng:TEI,statistical-geography:E07000040;statistical-geography:E07000041;statistical-geography:E07000042;statistical-geography:E07000045,,,,,
 ba0cf7b4-31fb-4ac0-a2e0-eac7c34db0da,Hammersmith and Fulham Local Plan,local-plan,local-authority-eng:HMF,statistical-geography:E09000013,,,,,2018-02-28
 17213289-e289-47bb-8638-bad7cb4d88bc,The Core Strategy,local-plan,local-authority-eng:HYN,statistical-geography:E07000120,,,,,2012-01-19
 cdc30064-9a36-496e-9bae-bb3dc49f9c27,Core Strategy Review,local-plan,local-authority-eng:HYN,statistical-geography:E07000120,,,,,
@@ -123,7 +123,7 @@ ed84f6ef-44cd-406a-89b0-40ceb70149f8,Shepway Core Strategy,local-plan,local-auth
 a1db663c-71f9-45fe-a8aa-e51f9d03907c,Fylde Local Plan to 2032,local-plan,local-authority-eng:FYL,statistical-geography:E07000119,,,,,2018-10-22
 5c88bf51-0629-436a-9900-f0b4eaa4381c,King’s Lynn & West Norfolk LDF: Core Strategy,local-plan,local-authority-eng:KIN,statistical-geography:E07000146,,,,,2011-07-28
 32a23802-e58d-497f-a4d3-ecb6b4aaea22,Local Plan Review Document,local-plan,local-authority-eng:KIN,statistical-geography:E07000146,,,,,
-ca6713f0-530b-43df-9b3d-f291f227a9da,,local-plan,local-authority-eng:ECA,statistical-geography:E07000009,,,,,
+ca6713f0-530b-43df-9b3d-f291f227a9da,Local Plan Review (Withdrawn 21 February 2019),local-plan,local-authority-eng:ECA,statistical-geography:E07000009,,,,,
 5dce72aa-fd22-4fd0-8147-32b014158462,East Cambridgeshire Local Plan,local-plan,local-authority-eng:ECA,statistical-geography:E07000009,,,,,2015-04-21
 fa2050ac-99a9-4b32-850c-ad9237675dfb,Hart Local Plan Strategy and Sites 2016-2032,local-plan,local-authority-eng:HAT,statistical-geography:E07000089,"Housing target increased from 6,208 at Examination to 7,614.",,,,2020-04-30
 82cf9340-c857-43f2-a3d8-b15b81296f44,Harlow Local Plan,local-plan,local-authority-eng:HAR,statistical-geography:E07000073,Policy HS1,,,,
@@ -152,7 +152,7 @@ b3a6f957-a015-4ac6-8e92-c0aab6b423b2,New Local Plan for Hambleton,local-plan,loc
 f7ab3008-a04e-4536-b285-10566f24f705,Development Framework,local-plan,local-authority-eng:HOR,statistical-geography:E07000227,,,,,2015-11-27
 5d138aa0-fa2f-4767-9bbf-710a21e87ea0,Herefordshire Local Plan: Core Strategy,local-plan,local-authority-eng:HEF,statistical-geography:E06000019,Policy SS2,,,,2015-10-16
 94ec63f6-5081-4e42-a23e-433f80d6b918,Elmbridge Core Strategy,local-plan,local-authority-eng:ELM,statistical-geography:E07000207,,,,,2011-07-20
-45be6968-284f-4ef9-88eb-1f0a03a49c51,,local-plan,local-authority-eng:ELM,statistical-geography:E07000207,,,,,
+45be6968-284f-4ef9-88eb-1f0a03a49c51,Elmbridge New Local Plan,local-plan,local-authority-eng:ELM,statistical-geography:E07000207,,,,,
 d9529aa8-ced5-44a8-b346-b8c71faa82da,East Riding Local Plan Strategy Document,local-plan,local-authority-eng:ERY,statistical-geography:E06000011,,,,,2016-04-06
 2a7f1eb4-e1fb-4f69-a51b-8c64a480320f,Joint Core Strategy,local-plan,local-authority-eng:EHA,statistical-geography:E07000085,,,,,2014-05-08
 8f82c5d5-bf7a-4a25-b233-2639606ccd80,Local Plan 2017 - 2036,local-plan,local-authority-eng:EHA,statistical-geography:E07000085,,,,,
@@ -179,7 +179,7 @@ c6eb3467-ba83-40a3-9d52-767e7f340c61,Islington Council Core Strategy,local-plan,
 e33a9a80-ca91-4189-a41b-8fecb2b02abd,Islington Local Plan,local-plan,local-authority-eng:ISL,statistical-geography:E09000019,,,,,
 12c410f7-7d60-4e7e-b636-de6d45944548,Local Plan Partial Review,local-plan,local-authority-eng:KEC,statistical-geography:E09000020,,,,,2019-09-11
 55685acf-e02f-4be0-80ae-4e98d50c7fcf,Core Strategy,local-plan,local-authority-eng:KTT,statistical-geography:E09000021,,,,,2012-04-17
-ca9edb36-e6c0-4f82-b472-5af6e8828069,,local-plan,local-authority-eng:KTT,statistical-geography:E09000021,,,,,
+ca9edb36-e6c0-4f82-b472-5af6e8828069,New Local Plan,local-plan,local-authority-eng:KTT,statistical-geography:E09000021,,,,,
 755f2847-3f10-4ae7-8e09-4a87e6e15602,Core Strategy DPD,local-plan,local-authority-eng:FOR,statistical-geography:E07000201,,,,,2010-05-12
 6e207c51-d629-4ace-be0a-39dc0573c18c,Core Strategy Single Issue Review,local-plan,local-authority-eng:FOR,statistical-geography:E07000201,,,,,2019-09-19
 a6e0dc08-d86e-43b2-8b7b-5d59308e59a0,Development Strategy 2026,local-plan,local-authority-eng:EAL,statistical-geography:E09000009,,,,,2012-04-03
@@ -285,7 +285,7 @@ f6868aaf-a9af-4447-baa0-dd735becbf48,Local Plan Review 2016-2036 - Part One: Pla
 ",,,,
 269fe47a-004f-4a5e-8ac6-bb37482c33f2,North East Derbyshire Local Plan (2014 - 2034),local-plan,local-authority-eng:NED,statistical-geography:E07000038,,,,,
 18a7a012-9dd1-4f9c-ae0b-7f6537e4790f,Plan:MK,local-plan,local-authority-eng:MIK,statistical-geography:E06000042,,,,,2019-03-20
-2ed5ae6b-8b7a-4a54-8d9f-89af587810fd,,local-plan,government-organisation:OT545,statistical-geography:E26000006,,,,,2011-10-07
+2ed5ae6b-8b7a-4a54-8d9f-89af587810fd,Core Strategy DPD ,local-plan,government-organisation:OT545,statistical-geography:E26000006,,,,,2011-10-07
 b1dc0df6-bbe8-4f4e-889c-1046e3b7d114,Local Plan Part One - Core Strategy,local-plan,government-organisation:OT220,statistical-geography:E26000011,,,,,2010-10-20
 fb4d0cb4-4018-47cb-8afa-c8b261516f24,Living Lakes: Your Local Plan,local-plan,government-organisation:OT220,statistical-geography:E26000011,,,,,
 9a026ec2-d842-4206-8366-5f2255ce11a6,New Forest National Park Local Plan 2016-2036,local-plan,government-organisation:OT222,statistical-geography:E26000009,,,,,2019-08-29
@@ -303,7 +303,7 @@ f150ab0a-4484-4661-810d-f33c11212694,Core Strategy,local-plan,local-authority-en
 716c27fa-4e56-4fbc-8a1d-f86fe99a2b7e,Our Local Plan 2033,local-plan,local-authority-eng:TAN,statistical-geography:E07000215,,,,,
 5627dd48-f80d-43ca-9357-49390aee0e02,Taunton Dene Adopted Core Strategy,local-plan,local-authority-eng:TAU,statistical-geography:E07000190,,,,,2012-09-11
 22dd9906-59fd-421b-aee8-c45d2e40868b,Bearing Fruits 2031: The Swale Local Plan,local-plan,local-authority-eng:SWL,statistical-geography:E07000113,,,,,2017-07-26
-37c09e6b-8a19-4926-b82c-082c65236689,,local-plan,local-authority-eng:SWL,statistical-geography:E07000113,,,,,
+37c09e6b-8a19-4926-b82c-082c65236689,Local Plan Review,local-plan,local-authority-eng:SWL,statistical-geography:E07000113,,,,,
 8c07a862-73a3-4437-bb83-e3ecdd898bec,Core Strategy,local-plan,local-authority-eng:SGC,statistical-geography:E06000025,,,,,2013-12-11
 e0e3f95a-d104-4eda-9b86-553812060a8d,Local Plan Part 1: Rushcliffe Core Strategy,local-plan,local-authority-eng:RUS,statistical-geography:E07000176,,,,,2014-12-22
 6288af75-399b-4878-9b85-0891d95ff058,South Oxfordshire Core Strategy,local-plan,local-authority-eng:SOX,statistical-geography:E07000179,,,,,2012-12-13
@@ -319,7 +319,7 @@ cd0ce8db-58e3-4705-8a95-5e92dfe5ab39,Torbay Local Plan,local-plan,local-authorit
 61b4391f-70d8-4836-bae1-62ff3b1ffdec,Teignbridge Local Plan Review,local-plan,local-authority-eng:TEI,statistical-geography:E07000045,,,,,
 9ce4ba00-7857-4f9b-916d-9f8ef953c050,Core Strategy (Focused Review),local-plan,local-authority-eng:THR,statistical-geography:E06000034,"Focused Review pertaining to compliance with the NPPF. Review updated policies CSSP5, CSTP8, CSTP23, STP25, CSTP26, CSTP27, CSTP28, CSTP31, CSTP32, PMD1, PMD2, PMD4, PMD6, PMD7, PMD10, PMD12, PMD15 and PMD16. Housing requirement policy (CSSP1) not materially altered by the Focused Review; policy dates to the Core Strategy (adopted 2011). Based on requirement of 18,500 2001-2021 (925 homes/annum) and 4,750 2021-2026 (950 homes/annum).",,,,2015-01-28
 e7448134-09bb-43a9-a657-d6cfcd18029a,Thurrock Core Strategy,local-plan,local-authority-eng:THR,statistical-geography:E06000034,"Original Policy CSSP1, as adopted 2011. Based on requirement of 18,500 2001-2021 (925 homes/annum) and 4,750 2021-2026 (950 homes/annum).",,,,2011-12-21
-8464078a-b6c8-45a4-8d96-6454ad9babe0,,local-plan,local-authority-eng:THR,statistical-geography:E06000034,,,,,
+8464078a-b6c8-45a4-8d96-6454ad9babe0,Thurrock Local Plan,local-plan,local-authority-eng:THR,statistical-geography:E06000034,,,,,
 c7762330-14f6-4b3f-bc7a-57b42fadf22e,Uttlesford Local Plan (Plan withdrawn 30 April 2020),local-plan,local-authority-eng:UTT,statistical-geography:E07000077,,,,,
 4a7df200-6ad1-4a01-a7a9-fcd7385faf6f,Ryedale Plan - Local Plan Strategy,local-plan,local-authority-eng:RYE,statistical-geography:E07000167,,,,,2013-09-05
 4a379f6b-7970-4522-9762-f85da25ba5ab,Scarborough Borough Local Plan - 2011/32,local-plan,local-authority-eng:SCE,statistical-geography:E07000168,,,,,2017-07-03
@@ -334,7 +334,7 @@ e3b7c403-fb3e-404f-8a2a-d78fd5091da5,Tamworth Borough Council Local Plan 2006-20
 de0f06ad-3b78-400e-8caa-9296441e5f29,South Lakeland LDF: Core Strategy,local-plan,local-authority-eng:SLA,statistical-geography:E07000031,,,,,2010-10-20
 347b2893-531b-4f87-bffe-10642ef7cc45,Southampton Core Strategy,local-plan,local-authority-eng:STH,statistical-geography:E06000045,Housing target as adopted in the Core Strategy 2010. Original CS no longer published on the LPA's website - reference to Inspector's Report provided in lieu.,,,,2010-01-20
 d12562aa-dbf0-4c99-b61c-d6f0116d4870,Core Strategy (Partial Review),local-plan,local-authority-eng:STH,statistical-geography:E06000045,Partial Review included the reduction in development targets for new office and retail floorspace and the inclusion of a presumption in favour of sustainable development. Housing requirement policy (CS 4) not materially altered by the Partial Review; policy dates to the Core Strategy (adopted 2010).,,,,2015-03-18
-439dfb09-86cd-4837-9547-6c885db855ac,,local-plan,local-authority-eng:STH,statistical-geography:E06000045,,,,,
+439dfb09-86cd-4837-9547-6c885db855ac,New Local Plan,local-plan,local-authority-eng:STH,statistical-geography:E06000045,,,,,
 4e8dd423-dcbe-44af-96db-3a7eb554c3b9,Local Plan - 2011 - 2031,local-plan,local-authority-eng:RUG,statistical-geography:E07000220,,,,,2019-06-04
 f2bd3b8f-95ef-4b55-979e-f5022e9f02e1,Core Strategy,local-plan,local-authority-eng:SBU,statistical-geography:E07000006,,,,,2011-02-22
 de6cbb4d-42b0-4e30-8de6-9c03018ce068,Sheffield Development Framework: Core Strategy,local-plan,local-authority-eng:SHF,statistical-geography:E08000019,,,,,2009-03-04
@@ -357,9 +357,9 @@ f77685f0-3166-4b2e-b668-e3cd71b871d8,Core Strategy,local-plan,local-authority-en
 74831e62-6999-4fc6-b1c9-15cef465f045,Three Rivers Local Plan,local-plan,local-authority-eng:THE,statistical-geography:E07000102,,,,,
 c9cd8aa4-cfe3-4e7f-b81b-bb6dae5b620b,St Albans City & District Local Plan 2020-2036,local-plan,local-authority-eng:SAL,statistical-geography:E07000240,,,,,
 d18d4eb8-3872-47bb-8fa0-e198affdcf1a,Core Strategy and DM Policies DPD,local-plan,local-authority-eng:SUR,statistical-geography:E07000214,,,,,2012-02-01
-ff812dc1-c45d-4dce-a607-72ddeec6ffb4,,local-plan,local-authority-eng:SUR,statistical-geography:E07000214,,,,,
+ff812dc1-c45d-4dce-a607-72ddeec6ffb4,Draft Local Plan (2016-2032),local-plan,local-authority-eng:SUR,statistical-geography:E07000214,,,,,
 1fe0c26f-d9ae-46b3-93d8-d47d208af5c3,Core Strategy 2006-2026,local-plan,local-authority-eng:SLG,statistical-geography:E06000039,,,,,2008-12-16
-4544d998-b626-4a0f-9857-835d7dca8b86,,local-plan,local-authority-eng:SLG,statistical-geography:E06000039,,,,,
+4544d998-b626-4a0f-9857-835d7dca8b86,Slough Local Plan 2016-2036,local-plan,local-authority-eng:SLG,statistical-geography:E06000039,,,,,
 9854a430-cc99-44e3-a7b8-328f7cbd09fb,Local Plan to 2031,local-plan,local-authority-eng:THA,statistical-geography:E07000114,"Local Plan review to be completed within 6 months of PLan adoption (see Policy SP01b).  
 Stepped approach to housing delivery: 
 2011-16 additional homes 1555 (311 hpa); 
@@ -378,7 +378,7 @@ Regulation 18 consultation October 2018.
 June 2020 LDS says Plan period end to be rolled forward to 2038",,,,
 d12564e2-e7d4-4c42-ae45-823c50dbd2c9,Local Plan 2011-2036,local-plan,local-authority-eng:SKE,statistical-geography:E07000141,"Committed to an early review of the plan commencing from April 2020, with submission to the Secretary of State for examination by the end of December 2023 (Policy M1).",,,,2020-01-30
 9d615ee9-76df-4968-9dd2-c58eae902804,The Plan for Stafford Borough,local-plan,local-authority-eng:STA,statistical-geography:E07000197,,,,,2014-06-19
-cb5c7478-36a7-4638-aa3b-9a61661e2f3a,,local-plan,local-authority-eng:STA,statistical-geography:E07000197,,,,,
+cb5c7478-36a7-4638-aa3b-9a61661e2f3a,New Local Plan,local-plan,local-authority-eng:STA,statistical-geography:E07000197,,,,,
 2259cad0-ee6d-44bf-99aa-1aba08dab7f0,Core Strategy DPD,local-plan,local-authority-eng:SKP,statistical-geography:E08000007,,,,,2011-03-17
 2d208e84-641b-4bcc-9a6b-40627a3e8f68,Rotherham Local Plan: Core Strategy,local-plan,local-authority-eng:ROT,statistical-geography:E08000018,,,,,2014-09-10
 6a2d40d5-1f4c-4d69-a634-2be64dc0bae9,South Downs Local Plan,local-plan,government-organisation:OT546,statistical-geography:E26000010,,,,,2019-07-02
@@ -395,7 +395,7 @@ bafeecd4-7263-4c1d-af5d-5bad6e76490b,Local Plan Review,local-plan,local-authorit
 from the Liverpool City Region for
 2027-2050.",,,,
 252e87cd-a0d3-4a20-bcc4-b2e104996fa6,Adur Local Plan 2017 (adopted) - Part 1,local-plan,local-authority-eng:ADU,statistical-geography:E07000223,,,,,2017-12-14
-aa3cac35-c06f-424e-9323-26211be4d402,,local-plan,local-authority-eng:BMH,statistical-geography:E06000028,,,,,
+aa3cac35-c06f-424e-9323-26211be4d402,Bournemouth Local Plan Review,local-plan,local-authority-eng:BMH,statistical-geography:E06000028,,,,,
 6f964803-73ae-4e23-b16b-8f795a2fd1f3,Bournemouth Local Plan: Core Strategy,local-plan,local-authority-eng:BMH,statistical-geography:E06000028,,,,,2012-10-30
 b94bbcac-a9b9-48a2-a7c6-66430ecc983e,Borough of Redditch Local Plan No. 4,local-plan,local-authority-eng:RED,statistical-geography:E07000236,"Reflecting 3,400 units of unmet need met in Bromsgrove.",,,,2017-01-30
 85edc099-3eee-4b89-9184-294530b10434,Waltham Forest Local Plan - Core Strategy,local-plan,local-authority-eng:WFT,statistical-geography:E09000031,"Comprising 10,320 new homes and 45 non-self contained units.",,,,2012-03-01
@@ -443,7 +443,7 @@ e678fd93-84a0-49f0-af8e-9bd339ea2d21,City of York Local Plan,local-plan,local-au
 24a33892-8d79-44d6-aa65-f76596059269,Suffolk Coastal Local Plan: Core Strategy & Development Management Policies,local-plan,local-authority-eng:SUF,statistical-geography:E07000205,,,,,2013-07-05
 f7455507-72b1-4513-af01-3ae610717999,Suffolk Coastal Local Plan,local-plan,local-authority-eng:SUF,statistical-geography:E07000205,,,,,
 2c041667-e350-44c5-83ec-78ea5e6f3b2d,Mole Valley Core Strategy,local-plan,local-authority-eng:MOL,statistical-geography:E07000210,,,,,2009-10-01
-af69967a-3ec2-467a-91c7-b1ecdf098fea,,local-plan,local-authority-eng:MOL,statistical-geography:E07000210,,,,,
+af69967a-3ec2-467a-91c7-b1ecdf098fea,Future Mole Valley (Local Plan 2018-2033),local-plan,local-authority-eng:MOL,statistical-geography:E07000210,,,,,
 0da2ac86-8bf0-4c4b-bc48-2da92f46727f,North Warwickshire Local Plan,local-plan,local-authority-eng:NWA,statistical-geography:E07000218,"Comprises minimum requirement of 5,808 dwellings and aspiration target of a further 3,709 dwellings, as set out in LP6. Table 2 (p.33) states that the overall housing requirement to be met through the plan is 9,598 homes.",,,,
 9243ef22-ee90-444a-acd4-bcf14b962695,Core Strategy,local-plan,local-authority-eng:NWA,statistical-geography:E07000218,,,,,2014-10-09
 721cea23-beb2-4cbf-8e8c-b1e1e7bde6cb,Leeds Core Strategy,local-plan,local-authority-eng:LDS,statistical-geography:E08000035,,,,,2014-11-12
@@ -469,13 +469,13 @@ ba74a7a2-6e3e-4ad0-9f8a-9620be69e85d,Local Plan (Part One) Strategic Policies,lo
 18fbd9e5-2d50-47c0-87b2-351edf4242a6,Harborough District Local Plan 2011 to 2031,local-plan,local-authority-eng:HAO,statistical-geography:E07000131,"Reflects the full plan requirement; lower figure in Policy H1 (3,975) reflects the residual requirement taking into account existing commitments and completions. ",,,,2019-04-30
 51cae130-b31a-4abb-ab25-9ed9a2273ecb,Tendring District Local Plan (North Essex Garden Communities),local-plan,local-authority-eng:TEN,statistical-geography:E07000076,"Aligned Local Plan with North Essex authorities (Braintree, Colchester, Tendring).",,,,
 34092d36-5d59-4d60-b93c-92612d5a8b10,Local Plan Part 1 - Joint Core Strategy,local-plan,local-authority-eng:WIN,statistical-geography:E07000094,,,,,2013-03-20
-cbd8c7a3-1ae2-44cc-b226-7b06a1141f4c,,local-plan,local-authority-eng:WIN,statistical-geography:E07000094,,,,,
+cbd8c7a3-1ae2-44cc-b226-7b06a1141f4c,Winchester District Local Plan 2018-2038,local-plan,local-authority-eng:WIN,statistical-geography:E07000094,,,,,
 8b400e77-b8c6-4d30-b6e6-c919233e46be,The Broxbourne Local Plan,local-plan,local-authority-eng:BRX,statistical-geography:E07000095,,,,,2020-06-23
 b48f775a-6694-4ea3-8d4c-1a5acf993d5d,Core strategy,local-plan,local-authority-eng:GRA,statistical-geography:E07000109,,,,,2014-09-30
 87c3ba8f-e036-4abb-92e6-f6a2bf70e7e2,Sevenoaks Core Strategy,local-plan,local-authority-eng:SEV,statistical-geography:E07000111,,,,,2011-02-22
 62bb87e0-2ba8-44bf-83fd-7c9dbab6dcfd,Sevenoaks District Local Plan,local-plan,local-authority-eng:SEV,statistical-geography:E07000111,"Proposed housing requirement excludes unmet need of 3,392 (based on housing need of 698/annum over the twenty year plan period).  Plan found UNSOUND on 2 March 2020.  Sevenoaks has begun Judicial Review proceedings. ",,,,
 a8fa4aed-7fdb-4203-94d8-795e137e66aa,Core Strategy,local-plan,local-authority-eng:TUN,statistical-geography:E07000116,,,,,2010-06-17
-e48491e3-38dc-4b7a-9aee-0b6f4f917707,,local-plan,local-authority-eng:TUN,statistical-geography:E07000116,,,,,
+e48491e3-38dc-4b7a-9aee-0b6f4f917707,New Local Plan,local-plan,local-authority-eng:TUN,statistical-geography:E07000116,,,,,
 30da2be2-5875-4fcb-b9f5-bb41273b90be,Pendle Local Plan Part 1: Core Strategy,local-plan,local-authority-eng:PEN,statistical-geography:E07000122,,,,,2015-12-17
 a11d7559-1ec8-436c-b643-8a2b78660d80,Solihull Local Plan,local-plan,local-authority-eng:SOL,statistical-geography:E08000029,"Borough's housing target, set out in Policy P5, quashed by the ruling in Gallagher Homes Ltd & Lioncourt Homes Ltd v Solihull Metropolitan Borough Council [2014] EWHC 1283 (Admin).",,,,2013-12-03
 4d9d0624-fda5-4a62-b37d-9cca77df0ebd,Solihull Local Plan Review,local-plan,local-authority-eng:SOL,statistical-geography:E08000029,"Includes additional 2,000 homes from shortfall across the wider HMA (unmet need).
@@ -497,6 +497,6 @@ be9ad1c4-f2a8-4e68-b56e-872caf7be0a3,North Tyneside Local Plan 2017,local-plan,l
 c84ad4a8-b539-4cd6-a762-75e1e8195fd8,Salford Local Plan: DM Policies & Designations,local-plan,local-authority-eng:SLF,statistical-geography:E08000006,,,,,
 6701085e-c35c-4115-8f3d-d1cee602a560,Wirral Local Plan,local-plan,local-authority-eng:WRL,statistical-geography:E08000015,,,,,
 dff4277e-032b-42ad-8893-0ec6f3db6948,Brentwood Local Plan,local-plan,local-authority-eng:BRW,statistical-geography:E07000068,,,,,
-df77835d-91df-4acc-a426-841dd31f22fd,,local-plan,government-organisation:OT543,statistical-geography:E26000004,,,,,2009-03-25
+df77835d-91df-4acc-a426-841dd31f22fd,Core Strategy and Development Management Policies,local-plan,government-organisation:OT543,statistical-geography:E26000004,,,,,2009-03-25
 78180781-4d4a-46c6-a525-b55512385655,Northumberland National Park Local Plan 2017-2037,local-plan,government-organisation:OT543,statistical-geography:E26000004,Formerly the local plan did not establish a housing requirement for the national park.  However the IR of 18 June 2020 sets a provision of 160 over the plan period equating to an annualised average of 8 DPA.,,,,
 2609e523-004f-4eb9-b2d5-89aa31422e5a,New Castle Point Local Plan,local-plan,local-authority-eng:CAS,statistical-geography:E07000069,,,,,
