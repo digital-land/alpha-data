@@ -48,8 +48,8 @@ def create_organisation_id_mapper():
     f = open("./patch/national-park-authority.csv")
     reader = csv.DictReader(f)
     for row in reader:
-        if "government-organisation" and "national-park-authority" in row.keys():
-            mapper[f"government-organisation:{row['government-organisation']}"] = f"national-park-authority:{row['national-park-authority']}"
+        if row.get("government-organisation") and row.get("national-park-authority"):
+            mapper[f"government-organisation:{row['government-organisation']}"] = f"national-park-authority:{row['national-park-authority']}" 
     return mapper
 
 id_mapper = create_organisation_id_mapper()
