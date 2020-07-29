@@ -103,9 +103,9 @@ beccd40e-da67-45a7-bdfa-c11004e60d49,Core Strategy,local-plan,local-authority-en
 c60389a1-db50-48c2-8daf-d67ceb5de91b,Darlington Local Plan,local-plan,local-authority-eng:DAL,statistical-geography:E06000005,As set out in Darlington Draft Local Plan 2016-2036 Reg 18 (August 2018),,,,
 6e6621ed-7095-4f3a-901c-8477bad6e802,Core Strategy,local-plan,local-authority-eng:BBD,statistical-geography:E06000008,,,,,2011-01-27
 7ec60977-d892-4a01-8b5f-3b7d175f3e6a,Blackburn with Darwen Local Plan,local-plan,local-authority-eng:BBD,statistical-geography:E06000008,,,,,
-7dd9e611-a2f6-4904-9b54-ddf987d87945,Local Plan for the Broads,local-plan,government-organisation:OT216,statistical-geography:E26000007,"Total requirement of 286, minus 38 unmet need to be delivered by Great Yarmouth outside the Broads.",,,,2019-05-17
-208f8df8-5784-4ea4-8521-a2d58603b234,Core Strategy DPD 2006,local-plan,government-organisation:OT217,statistical-geography:E26000001,,,,,2008-04-04
-a37f5aa7-26df-4435-9f54-b4b15ff03b9d,Local Plan Review (Draft),local-plan,government-organisation:OT217,statistical-geography:E26000001,,,,,
+7dd9e611-a2f6-4904-9b54-ddf987d87945,Local Plan for the Broads,local-plan,national-park-authority:Q4972284,statistical-geography:E26000007,"Total requirement of 286, minus 38 unmet need to be delivered by Great Yarmouth outside the Broads.",,,,2019-05-17
+208f8df8-5784-4ea4-8521-a2d58603b234,Core Strategy DPD 2006,local-plan,national-park-authority:Q5225646,statistical-geography:E26000001,,,,,2008-04-04
+a37f5aa7-26df-4435-9f54-b4b15ff03b9d,Local Plan Review (Draft),local-plan,national-park-authority:Q5225646,statistical-geography:E26000001,,,,,
 9a6adacc-51d0-4d89-bc0c-cf717e549372,Core Strategy,local-plan,local-authority-eng:HAL,statistical-geography:E06000006,,,,,2013-04-17
 6d1bee1d-3c05-4aaf-8d7b-2dd014b03eab,Halton Delivery and Allocations Plan,local-plan,local-authority-eng:HAL,statistical-geography:E06000006,,,,,
 e9cdd4c9-4ab7-4764-90d0-193af9bb2c04,Local Plan 2014-2032,local-plan,local-authority-eng:EDN,statistical-geography:E07000030,,,,,2018-10-11
@@ -184,7 +184,7 @@ ca9edb36-e6c0-4f82-b472-5af6e8828069,New Local Plan,local-plan,local-authority-e
 6e207c51-d629-4ace-be0a-39dc0573c18c,Core Strategy Single Issue Review,local-plan,local-authority-eng:FOR,statistical-geography:E07000201,,,,,2019-09-19
 a6e0dc08-d86e-43b2-8b7b-5d59308e59a0,Development Strategy 2026,local-plan,local-authority-eng:EAL,statistical-geography:E09000009,,,,,2012-04-03
 39b6a87b-43e3-4483-b229-de8f207a9053,Hull Local Plan 2016 to 2032,local-plan,local-authority-eng:KHL,statistical-geography:E06000010,,,,,2017-11-23
-fa593a9c-6a8a-401b-b688-cb7aafdd3182,Exmoor National Park Local Plan,local-plan,government-organisation:OT219,statistical-geography:E26000002,,,,,2017-07-04
+fa593a9c-6a8a-401b-b688-cb7aafdd3182,Exmoor National Park Local Plan,local-plan,national-park-authority:Q72617784,statistical-geography:E26000002,,,,,2017-07-04
 7321ff7a-d9d2-4aec-8fa5-ebd96ecde1f8,Rother Local Plan Core Strategy,local-plan,local-authority-eng:ROH,statistical-geography:E07000064,,,,,2014-09-29
 b42cefd8-2cc4-4141-932f-0ceb4b59b910,Core Strategy Development Plan Document: The Way Forward (2011 - 2026),local-plan,local-authority-eng:ROS,statistical-geography:E07000125,,,,,2011-11-08
 e3787097-4490-41c4-8bb5-233cb51ac116,Rossendale Local Plan,local-plan,local-authority-eng:ROS,statistical-geography:E07000125,,,,,
@@ -285,12 +285,12 @@ f6868aaf-a9af-4447-baa0-dd735becbf48,Local Plan Review 2016-2036 - Part One: Pla
 ",,,,
 269fe47a-004f-4a5e-8ac6-bb37482c33f2,North East Derbyshire Local Plan (2014 - 2034),local-plan,local-authority-eng:NED,statistical-geography:E07000038,,,,,
 18a7a012-9dd1-4f9c-ae0b-7f6537e4790f,Plan:MK,local-plan,local-authority-eng:MIK,statistical-geography:E06000042,,,,,2019-03-20
-2ed5ae6b-8b7a-4a54-8d9f-89af587810fd,Core Strategy DPD ,local-plan,government-organisation:OT545,statistical-geography:E26000006,,,,,2011-10-07
-b1dc0df6-bbe8-4f4e-889c-1046e3b7d114,Local Plan Part One - Core Strategy,local-plan,government-organisation:OT220,statistical-geography:E26000011,,,,,2010-10-20
-fb4d0cb4-4018-47cb-8afa-c8b261516f24,Living Lakes: Your Local Plan,local-plan,government-organisation:OT220,statistical-geography:E26000011,,,,,
-9a026ec2-d842-4206-8366-5f2255ce11a6,New Forest National Park Local Plan 2016-2036,local-plan,government-organisation:OT222,statistical-geography:E26000009,,,,,2019-08-29
-ec74225d-d0a7-49c3-bf6b-889beb430bef,Core Strategy and Development Policies,local-plan,government-organisation:OT223,statistical-geography:E26000005,,,,,2008-11-28
-0f521478-8e31-4bd4-b667-7370f2e7a34d,North York Moors Local Plan,local-plan,government-organisation:OT223,statistical-geography:E26000005,,,,,
+2ed5ae6b-8b7a-4a54-8d9f-89af587810fd,Core Strategy DPD ,local-plan,national-park-authority:Q72617988,statistical-geography:E26000006,,,,,2011-10-07
+b1dc0df6-bbe8-4f4e-889c-1046e3b7d114,Local Plan Part One - Core Strategy,local-plan,national-park-authority:Q27159704,statistical-geography:E26000011,,,,,2010-10-20
+fb4d0cb4-4018-47cb-8afa-c8b261516f24,Living Lakes: Your Local Plan,local-plan,national-park-authority:Q27159704,statistical-geography:E26000011,,,,,
+9a026ec2-d842-4206-8366-5f2255ce11a6,New Forest National Park Local Plan 2016-2036,local-plan,national-park-authority:Q72617158,statistical-geography:E26000009,,,,,2019-08-29
+ec74225d-d0a7-49c3-bf6b-889beb430bef,Core Strategy and Development Policies,local-plan,national-park-authority:Q72617669,statistical-geography:E26000005,,,,,2008-11-28
+0f521478-8e31-4bd4-b667-7370f2e7a34d,North York Moors Local Plan,local-plan,national-park-authority:Q72617669,statistical-geography:E26000005,,,,,
 a9c0dfea-a696-4c82-9931-f6a5b7f8b106,South Tyneside LDF: Core Strategy,local-plan,local-authority-eng:STY,statistical-geography:E08000023,,,,,2007-06-28
 df7a6d48-c8b9-4d57-87d8-04c9592b31a3,Core Strategy,local-plan,local-authority-eng:TON,statistical-geography:E07000115,,,,,2007-09-25
 b393fec5-4ddb-4368-8a57-c35ee04956a4,Tonbridge & Malling Borough Local Plan,local-plan,local-authority-eng:TON,statistical-geography:E07000115,,,,,
@@ -381,7 +381,7 @@ d12564e2-e7d4-4c42-ae45-823c50dbd2c9,Local Plan 2011-2036,local-plan,local-autho
 cb5c7478-36a7-4638-aa3b-9a61661e2f3a,New Local Plan,local-plan,local-authority-eng:STA,statistical-geography:E07000197,,,,,
 2259cad0-ee6d-44bf-99aa-1aba08dab7f0,Core Strategy DPD,local-plan,local-authority-eng:SKP,statistical-geography:E08000007,,,,,2011-03-17
 2d208e84-641b-4bcc-9a6b-40627a3e8f68,Rotherham Local Plan: Core Strategy,local-plan,local-authority-eng:ROT,statistical-geography:E08000018,,,,,2014-09-10
-6a2d40d5-1f4c-4d69-a634-2be64dc0bae9,South Downs Local Plan,local-plan,government-organisation:OT546,statistical-geography:E26000010,,,,,2019-07-02
+6a2d40d5-1f4c-4d69-a634-2be64dc0bae9,South Downs Local Plan,local-plan,national-park-authority:Q20198711,statistical-geography:E26000010,,,,,2019-07-02
 4cb09287-7a8f-4aa6-9076-3c7466ad26ec,West Somerset Local Plan to 2032,local-plan,local-authority-eng:WSO,statistical-geography:E07000191,,,,,2016-11-23
 c39f1ea7-c037-429f-be7e-45d3f3ad928e,Bath and North East Somerset Core Strategy,local-plan,local-authority-eng:BAS,statistical-geography:E06000022,,,,,2014-07-10
 46cd098f-c373-41d6-9996-664df6ff1ba7,Wiltshire Core Strategy,local-plan,local-authority-eng:WIL,statistical-geography:E06000054,,,,,2015-01-20
@@ -433,7 +433,7 @@ e4defd69-6273-4f9e-8121-4b5f55020607,Wakefield Local Development Plan 2036,local
 9cd9b1e0-e19c-40ff-a367-b55da0a168ef,Welwyn Hatfield Local Plan,local-plan,local-authority-eng:WEW,statistical-geography:E07000241,,,,,
 1dc02551-0279-4da2-a0e0-14f22fce3893,Wigan Local Plan: Core Strategy,local-plan,local-authority-eng:WGN,statistical-geography:E08000010,,,,,2013-09-11
 75bd4998-b822-4f62-84bc-7e6170b7f87b,Core Strategy and Development Plan 2015-2033,local-plan,local-authority-eng:SND,statistical-geography:E08000024,,,,,2020-01-30
-ea1e8cf6-0017-412a-bacf-3816a3f8df5d,Yorkshire Dales National Park Local Plan 2015-2030,local-plan,government-organisation:OT547,statistical-geography:E26000012,,,,,2016-12-20
+ea1e8cf6-0017-412a-bacf-3816a3f8df5d,Yorkshire Dales National Park Local Plan 2015-2030,local-plan,national-park-authority:Q27178932,statistical-geography:E26000012,,,,,2016-12-20
 e678fd93-84a0-49f0-af8e-9bd339ea2d21,City of York Local Plan,local-plan,local-authority-eng:YOR,statistical-geography:E06000014,,,,,
 68988a3d-e798-47b4-84b0-a2ddfaa8eabf,Core Strategy Local Plan,local-plan,local-authority-eng:WEA,statistical-geography:E07000065,,,,,2012-11-28
 7b18c2ee-2db5-481d-b79b-546395189b20,Wealden Local Plan (Plan withdrawn 19 Feb 2020),local-plan,local-authority-eng:WEA,statistical-geography:E07000065,,,,,
@@ -497,6 +497,6 @@ be9ad1c4-f2a8-4e68-b56e-872caf7be0a3,North Tyneside Local Plan 2017,local-plan,l
 c84ad4a8-b539-4cd6-a762-75e1e8195fd8,Salford Local Plan: DM Policies & Designations,local-plan,local-authority-eng:SLF,statistical-geography:E08000006,,,,,
 6701085e-c35c-4115-8f3d-d1cee602a560,Wirral Local Plan,local-plan,local-authority-eng:WRL,statistical-geography:E08000015,,,,,
 dff4277e-032b-42ad-8893-0ec6f3db6948,Brentwood Local Plan,local-plan,local-authority-eng:BRW,statistical-geography:E07000068,,,,,
-df77835d-91df-4acc-a426-841dd31f22fd,Core Strategy and Development Management Policies,local-plan,government-organisation:OT543,statistical-geography:E26000004,,,,,2009-03-25
-78180781-4d4a-46c6-a525-b55512385655,Northumberland National Park Local Plan 2017-2037,local-plan,government-organisation:OT543,statistical-geography:E26000004,Formerly the local plan did not establish a housing requirement for the national park.  However the IR of 18 June 2020 sets a provision of 160 over the plan period equating to an annualised average of 8 DPA.,,,,
+df77835d-91df-4acc-a426-841dd31f22fd,Core Strategy and Development Management Policies,local-plan,national-park-authority:Q72617890,statistical-geography:E26000004,,,,,2009-03-25
+78180781-4d4a-46c6-a525-b55512385655,Northumberland National Park Local Plan 2017-2037,local-plan,national-park-authority:Q72617890,statistical-geography:E26000004,Formerly the local plan did not establish a housing requirement for the national park.  However the IR of 18 June 2020 sets a provision of 160 over the plan period equating to an annualised average of 8 DPA.,,,,
 2609e523-004f-4eb9-b2d5-89aa31422e5a,New Castle Point Local Plan,local-plan,local-authority-eng:CAS,statistical-geography:E07000069,,,,,
