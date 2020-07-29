@@ -41,6 +41,26 @@ def hash_(value):
     return hashlib.sha256(value.encode("utf-8")).hexdigest()
 
 
+# replace old form of national park identifiers with their digital land version
+# e.g. government-organisation:OT543 ==> national-park-authority:Q72617890 
+def create_organisation_id_mapper():
+    mapper = {}
+    f = open("./patch/national-park-authority.csv")
+    reader = csv.DictReader(f)
+    for row in reader:
+        if "government-organisation" and "national-park-authority" in row.keys():
+            mapper[f"government-organisation:{row['government-organisation']}"] = f"national-park-authority:{row['national-park-authority']}"
+    return mapper
+
+
+def patch_organisation_id(map, _id):
+    if _id in map.keys():
+        return map[_id]
+    return _id
+
+id_mapper = create_organisation_id_mapper()
+
+
 for row in reader:
     plan = plans.setdefault(row["plan_id"], dict())
 
@@ -59,7 +79,7 @@ for row in reader:
     document_key = hash_(":".join([row["plan_id"], row["planning_authority"]]))
     documents[document_key] = copy.deepcopy(plan)
     documents[document_key]["development-plan-document"] = document_key
-    documents[document_key]["organisation"] = row["planning_authority"]
+    documents[document_key]["organisation"] = patch_organisation_id(id_mapper, row["planning_authority"])
     documents[document_key]["document-url"] = row["source_document"]
 
     # build list of all geographies that this plan applies to
@@ -68,7 +88,7 @@ for row in reader:
 
     # build list of all orgs that this plan applies to
     organisations = plan.setdefault("organisations", [])
-    organisations.append(row["planning_authority"])
+    organisations.append(patch_organisation_id(id_mapper, row["planning_authority"]))
 
 f.close()
 
