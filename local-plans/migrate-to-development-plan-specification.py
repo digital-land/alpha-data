@@ -52,12 +52,6 @@ def create_organisation_id_mapper():
             mapper[f"government-organisation:{row['government-organisation']}"] = f"national-park-authority:{row['national-park-authority']}"
     return mapper
 
-
-def patch_organisation_id(map, _id):
-    if _id in map.keys():
-        return map[_id]
-    return _id
-
 id_mapper = create_organisation_id_mapper()
 
 
@@ -79,7 +73,7 @@ for row in reader:
     document_key = hash_(":".join([row["plan_id"], row["planning_authority"]]))
     documents[document_key] = copy.deepcopy(plan)
     documents[document_key]["development-plan-document"] = document_key
-    documents[document_key]["organisation"] = patch_organisation_id(id_mapper, row["planning_authority"])
+    documents[document_key]["organisation"] = id_mapper.get(row["planning_authority"], row["planning_authority"])
     documents[document_key]["document-url"] = row["source_document"]
 
     # build list of all geographies that this plan applies to
@@ -88,7 +82,7 @@ for row in reader:
 
     # build list of all orgs that this plan applies to
     organisations = plan.setdefault("organisations", [])
-    organisations.append(patch_organisation_id(id_mapper, row["planning_authority"]))
+    organisations.append(id_mapper.get(row["planning_authority"], row["planning_authority"]))
 
 f.close()
 
