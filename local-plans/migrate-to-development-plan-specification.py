@@ -43,24 +43,25 @@ def hash_(value):
 
 # replace old form of national park identifiers with their digital land version
 # e.g. government-organisation:OT543 ==> national-park-authority:Q72617890
-def load_mappings(mapper, path, old_field, new_field, update_prefix=True):
+def load_mappings(path, old_field, new_field, update_prefix=True):
+    mapping = {}
     f = open(path)
     reader = csv.DictReader(f)
     for row in reader:
         if row.get(old_field) and row.get(new_field):
             if update_prefix:
-                mapper[f"{old_field}:{row[old_field]}"] = f"{new_field}:{row[new_field]}"
+                mapping[f"{old_field}:{row[old_field]}"] = f"{new_field}:{row[new_field]}"
             else:
-                mapper[f"{new_field}:{row[old_field]}"] = f"{new_field}:{row[new_field]}"
-    return mapper
+                mapping[f"{new_field}:{row[old_field]}"] = f"{new_field}:{row[new_field]}"
+    return mapping
 
 
 def create_organisation_id_mapper():
     mapper = {}
     # load national-parks
-    mapper = load_mappings(mapper, "./patch/national-park-authority.csv", "government-organisation", "national-park-authority")
+    mapper.update(load_mappings("./patch/national-park-authority.csv", "government-organisation", "national-park-authority"))
     # load development corporations
-    mapper = load_mappings(mapper, "./patch/development-corporation.csv", "prototype-id", "development-corporation", False)
+    mapper.update(load_mappings("./patch/development-corporation.csv", "prototype-id", "development-corporation", False))
     return mapper
 
 id_mapper = create_organisation_id_mapper()
