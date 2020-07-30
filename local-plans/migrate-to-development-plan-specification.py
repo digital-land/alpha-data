@@ -42,18 +42,29 @@ def hash_(value):
 
 
 # replace old form of national park identifiers with their digital land version
-# e.g. government-organisation:OT543 ==> national-park-authority:Q72617890 
-def create_organisation_id_mapper():
-    mapper = {}
-    f = open("./patch/national-park-authority.csv")
+# e.g. government-organisation:OT543 ==> national-park-authority:Q72617890
+def load_mappings(path, old_field, new_field, update_prefix=True):
+    mapping = {}
+    f = open(path)
     reader = csv.DictReader(f)
     for row in reader:
-        if row.get("government-organisation") and row.get("national-park-authority"):
-            mapper[f"government-organisation:{row['government-organisation']}"] = f"national-park-authority:{row['national-park-authority']}" 
+        if row.get(old_field) and row.get(new_field):
+            if update_prefix:
+                mapping[f"{old_field}:{row[old_field]}"] = f"{new_field}:{row[new_field]}"
+            else:
+                mapping[f"{new_field}:{row[old_field]}"] = f"{new_field}:{row[new_field]}"
+    return mapping
+
+
+def create_organisation_id_mapper():
+    mapper = {}
+    # load national-parks
+    mapper.update(load_mappings("./patch/national-park-authority.csv", "government-organisation", "national-park-authority"))
+    # load development corporations
+    mapper.update(load_mappings("./patch/development-corporation.csv", "prototype-id", "development-corporation", False))
     return mapper
 
 id_mapper = create_organisation_id_mapper()
-
 
 for row in reader:
     plan = plans.setdefault(row["plan_id"], dict())
