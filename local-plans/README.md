@@ -1,50 +1,10 @@
-# Local plans
+# Development policy and local plans data
 
-This is a placeholder register created from a list published by the Planning Inspectorate
-[here](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/777040/LPA_Strategic_Plan_Progress_-_1_February_2019._GOV.UK.pdf)
+See https://digital-land.github.io/specification/
 
-### Register description
+These files are to b moved into a separate development-policy-collection.
 
-Each row in the file represents the local plan of a planning authority at a specific status showing the progress of the plan from publication through to adoption.
+The data was seeded from
+[a Planning Inspectorate list](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/777040/LPA_Strategic_Plan_Progress_-_1_February_2019._GOV.UK.pdf) and was subsequently updated by planning policy colleagues using the [local plans prototype](https://local-plans-prototype.herokuapp.com/local-plans).
 
-The plan can be in one of the following states:
-
-    published|submitted|sound|adopted|updated
-
-Where these states map to the headings in the original document as follows:
-
-    Last Updated = updated
-    Published = published
-    Submitted = submitted
-    Found Sound = sound
-    Adopted = adopted
-
-
-The fields in this register are:
-
-    local-plan
-    organisation
-    name
-    status
-    plan-policy-url
-    plan-document-url
-    date
-    entry-date
-
-**These field names are of course work in progress**
-
-**Note: it seems that plans can be comprised of many documents therefore we'll probably move the plan document url into its own list at some point**
-
-
-### Field descriptions
-
-| field       | description|
-| ------------- |-------------|
-| local-plan | Identifier for local plan. The status changes in the plan require new entries which share this identifier |
-| organisation | The planning authority publishing the plan. Identifiers should eventually come from organisation register |
-| name | planning authority name|
-| status | The status of the plan as one of published, submitted, accepted, adopted, updated |
-| plan-policy-url | Main page on planning authority with links to local plan documents |
-| plan-document-url | The url of a specific planning document |
-| date | The date on which the plan reached the given status |
-| entry-date | The date this row/record was written to the register |
+The intention is for the national categories and policies to kept and maintained in registers operated by MHCLG, and for data about individual local plans to be collected and assembled from data made available by individual Local Planning Authorities.
