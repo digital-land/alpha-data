@@ -2,7 +2,7 @@
 
 See https://digital-land.github.io/specification/
 
-These files are to b moved into a separate development-policy-collection.
+These files are to be moved into a separate development-policy-collection.
 
 The data was seeded from
 [a Planning Inspectorate list](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/777040/LPA_Strategic_Plan_Progress_-_1_February_2019._GOV.UK.pdf) and was subsequently updated by planning policy colleagues using the [local plans prototype](https://local-plans-prototype.herokuapp.com/local-plans).
