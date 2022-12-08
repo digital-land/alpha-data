@@ -1,7 +1,7 @@
 -i https://pypi.org/simple
 attrs==19.1.0
 cchardet==2.1.4
-certifi==2019.3.9
+certifi==2022.12.7
 chardet==3.0.4
 click==7.0
 datapackage==1.6.0
